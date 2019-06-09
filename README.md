@@ -22,3 +22,6 @@ tar -xzvf vgg_16_2016_08_28.tar.gz
 mv vgg_16.ckpt vgg16.ckpt
 cd ../..
 ```
+2. Fetch training dataset
+* Download dataset from https://drive.google.com/open?id=1amgYMQKcQH-TKGCoQiAZ8PTnU5xZtMoJ
+* Move to `data/VOCDevkit2007/VOC2007`
