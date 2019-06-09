@@ -16,10 +16,10 @@ for path, dir_list, file_list in root_dir:
                 im = Image.open(img_path)
                 im = im.convert('RGB')
                 if folder_name in poisonous:
-                    new_im_name = "cat." + str(poisonous_num) + ".jpg"
+                    new_im_name = "poisonous." + str(poisonous_num) + ".jpg"
                     poisonous_num += 1
                 else:
-                    new_im_name = "dog." + str(edible_num) + ".jpg"
+                    new_im_name = "edible." + str(edible_num) + ".jpg"
                     edible_num += 1
                 im.save(save_dir + new_im_name)
             except(OSError, NameError):
