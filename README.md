@@ -46,3 +46,14 @@ cd ../..
 ./experiments/scripts/test_faster_rcnn.sh 0 pascal_voc vgg16
 ```
 ## Model - CNN
+### Dataset
+* Download dataset from https://drive.google.com/open?id=1a1pvL017RQ7L4CS3JE8YRK6jS-71yU7V
+* Move to `dataset/`
+### Training
+```
+python train.py
+```
+### Predicting
+```
+python predict.py
+```
