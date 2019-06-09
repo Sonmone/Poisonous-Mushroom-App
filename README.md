@@ -57,3 +57,9 @@ python train.py
 ```
 python predict.py
 ```
+## Tools
+* create_trainval.py - create the training, testing and validation dataset
+* Image_Similarity.ipynb - remove duplicated images based on image similarity
+* img_classify.py - classify the images into poisonous and edible mushrooms
+* name-fix.py - fix the name for xml files
+* rotate.py - augment training dataset
