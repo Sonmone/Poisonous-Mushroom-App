@@ -2,7 +2,7 @@
 The project adopts Faster RCNN to classify the categories of different mushrooms and integrate the model on IOS App.
 ## Environment
 * Ubuntu 18.04
-* Python 3.5
+* Python 2.7/3.5
 * Tensorflow 1.13.0
 * Numpy 1.15.1
 ## Model - Faster RCNN
