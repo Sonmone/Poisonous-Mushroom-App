@@ -24,4 +24,12 @@ cd ../..
 ```
 2. Fetch training dataset
 * Download dataset from https://drive.google.com/open?id=1amgYMQKcQH-TKGCoQiAZ8PTnU5xZtMoJ
-* Move to `data/VOCDevkit2007/VOC2007`
+* Move to `data/VOCDevkit2007/VOC2007/`
+3. Fetch our trained model
+* Download dataset from https://drive.google.com/open?id=11gnkOXU2MWzMQ5G1WEE4KIuCBPF8oKh1
+* Move to `output/vgg16/voc_2007_trainval/default/`
+### Training
+```
+./experiments/scripts/train_faster_rcnn.sh 0 pascal_voc vgg16
+```
+### Predicting
