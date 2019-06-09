@@ -33,3 +33,10 @@ cd ../..
 ./experiments/scripts/train_faster_rcnn.sh 0 pascal_voc vgg16
 ```
 ### Predicting
+```
+./tools/predict.py
+```
+### Evaluating
+```
+./experiments/scripts/test_faster_rcnn.sh 0 pascal_voc vgg16
+```
