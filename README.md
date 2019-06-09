@@ -1,5 +1,10 @@
 # Poisonous-Mushroom-App
 The project adopts Faster RCNN to classify the categories of different mushrooms and integrate the model on IOS App.
+## Environment
+* Ubuntu 18.04
+* Python 3.5
+* Tensorflow 1.13.0
+* Numpy 1.15.1
 ## Model - Faster RCNN
 ### Acknowledgement
 The Faster RCNN model is build by TensorFlow, original from https://github.com/endernewton/tf-faster-rcnn, modified by Poisonous-Mushroom-Group.
@@ -40,3 +45,4 @@ cd ../..
 ```
 ./experiments/scripts/test_faster_rcnn.sh 0 pascal_voc vgg16
 ```
+## Model - CNN
