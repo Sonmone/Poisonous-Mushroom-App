@@ -9,5 +9,5 @@ The Faster RCNN model is build by TensorFlow, original from https://github.com/e
 https://github.com/Sonmone/Poisonous-Mushroom-App.git
 ```
 2. Configure the Linux Environment
-Refer to the tutorial in https://github.com/endernewton/tf-faster-rcnn.
+    Refer to the tutorial in https://github.com/endernewton/tf-faster-rcnn.
 3. Fetch dataset
