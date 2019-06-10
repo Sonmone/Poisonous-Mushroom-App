@@ -5,6 +5,8 @@ The project adopts Faster RCNN to classify the categories of different mushrooms
 * Python 2.7/3.5
 * Tensorflow 1.13.0
 * Numpy 1.15.1
+* Python-Flask
+* Xcode 9.3
 ## Model - Faster RCNN
 ### Acknowledgement
 The Faster RCNN model is build by TensorFlow, original from https://github.com/endernewton/tf-faster-rcnn, modified by Poisonous-Mushroom-Group.
@@ -56,7 +58,18 @@ python train.py
 ### Predicting
 ```
 python predict.py
+
 ```
+## Mobile application
+The iOS Swift Code + API that runs on the server to lisen the request from the iOS APP
+
+### Server API
+
+Running this python code on the remote server
+```
+    python server.py
+```
+
 ## Tools
 * create_trainval.py - create the training, testing and validation dataset
 * Image_Similarity.ipynb - remove duplicated images based on image similarity
