@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51C9707EC2D32C618F654788 /* Pods_urlRequest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DA39F912A4AB4A0B5A5A06 /* Pods_urlRequest.framework */; };
+		753FA1BD229ABA3900E29C8E /* MushroomIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753FA1BC229ABA3900E29C8E /* MushroomIntro.swift */; };
+		75B418A6229E2F770009E27E /* ImageClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 75B418A5229E2F770009E27E /* ImageClassifier.mlmodel */; };
+		75B418A8229E313A0009E27E /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B418A7229E313A0009E27E /* ImageProcessor.swift */; };
+		75B7AD7322A3A67B000C9A3C /* imageRotator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B7AD7222A3A67B000C9A3C /* imageRotator.swift */; };
+		75BDCC302294D65C00A5DE3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BDCC2F2294D65C00A5DE3B /* AppDelegate.swift */; };
+		75BDCC322294D65C00A5DE3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BDCC312294D65C00A5DE3B /* ViewController.swift */; };
+		75BDCC352294D65C00A5DE3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75BDCC332294D65C00A5DE3B /* Main.storyboard */; };
+		75BDCC3A2294D66000A5DE3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75BDCC382294D66000A5DE3B /* LaunchScreen.storyboard */; };
+		75DD8C12229D47C200D0D5A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75DD8C0C229D1BFF00D0D5A3 /* Assets.xcassets */; };
+		75EED756229FD0BE002B38D6 /* shaggy parasol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 75EED74A229FD0BC002B38D6 /* shaggy parasol.jpg */; };
+		75EED757229FD0BE002B38D6 /* ghost fungus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 75EED74B229FD0BC002B38D6 /* ghost fungus.jpg */; };
+		75EED758229FD0BE002B38D6 /* shimeji mushroom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 75EED74C229FD0BC002B38D6 /* shimeji mushroom.jpg */; };
+		75EED759229FD0BE002B38D6 /* slippery jack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 75EED74D229FD0BD002B38D6 /* slippery jack.jpg */; };
+		75EED75A229FD0BE002B38D6 /* yellow-staining mushroom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 75EED74E229FD0BD002B38D6 /* yellow-staining mushroom.jpg */; };
+		75EED75B229FD0BE002B38D6 /* button mushroom.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 75EED74F229FD0BD002B38D6 /* button mushroom.jpeg */; };
+		75EED75C229FD0BE002B38D6 /* green-spored parasol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 75EED750229FD0BD002B38D6 /* green-spored parasol.jpg */; };
+		75EED75D229FD0BE002B38D6 /* earthball mushroom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 75EED751229FD0BD002B38D6 /* earthball mushroom.jpg */; };
+		75EED75E229FD0BE002B38D6 /* haymakers mushroom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 75EED752229FD0BD002B38D6 /* haymakers mushroom.jpg */; };
+		75EED75F229FD0BE002B38D6 /* death cap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 75EED753229FD0BD002B38D6 /* death cap.jpg */; };
+		75EED760229FD0BE002B38D6 /* king oyster mushroom.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 75EED754229FD0BD002B38D6 /* king oyster mushroom.jpeg */; };
+		75EED761229FD0BE002B38D6 /* pleurotus ostreatus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 75EED755229FD0BE002B38D6 /* pleurotus ostreatus.jpg */; };
+		F3E9CC8F229F71F60044CAC5 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = F3E9CC8E229F71F50044CAC5 /* data.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		082DD1E96E7CBACFE79F841E /* Pods-urlRequest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-urlRequest.release.xcconfig"; path = "Target Support Files/Pods-urlRequest/Pods-urlRequest.release.xcconfig"; sourceTree = "<group>"; };
+		11FF372A40BB5CD7775885B7 /* Pods-urlRequest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-urlRequest.debug.xcconfig"; path = "Target Support Files/Pods-urlRequest/Pods-urlRequest.debug.xcconfig"; sourceTree = "<group>"; };
+		753FA1BC229ABA3900E29C8E /* MushroomIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MushroomIntro.swift; sourceTree = "<group>"; };
+		75B418A5229E2F770009E27E /* ImageClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ImageClassifier.mlmodel; sourceTree = "<group>"; };
+		75B418A7229E313A0009E27E /* ImageProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProcessor.swift; sourceTree = "<group>"; };
+		75B7AD7222A3A67B000C9A3C /* imageRotator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageRotator.swift; sourceTree = "<group>"; };
+		75BDCC2C2294D65C00A5DE3B /* urlRequest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = urlRequest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75BDCC2F2294D65C00A5DE3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		75BDCC312294D65C00A5DE3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		75BDCC342294D65C00A5DE3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75BDCC392294D66000A5DE3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75BDCC3B2294D66000A5DE3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75DD8C0C229D1BFF00D0D5A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75EED74A229FD0BC002B38D6 /* shaggy parasol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "shaggy parasol.jpg"; sourceTree = "<group>"; };
+		75EED74B229FD0BC002B38D6 /* ghost fungus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ghost fungus.jpg"; sourceTree = "<group>"; };
+		75EED74C229FD0BC002B38D6 /* shimeji mushroom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "shimeji mushroom.jpg"; sourceTree = "<group>"; };
+		75EED74D229FD0BD002B38D6 /* slippery jack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "slippery jack.jpg"; sourceTree = "<group>"; };
+		75EED74E229FD0BD002B38D6 /* yellow-staining mushroom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "yellow-staining mushroom.jpg"; sourceTree = "<group>"; };
+		75EED74F229FD0BD002B38D6 /* button mushroom.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "button mushroom.jpeg"; sourceTree = "<group>"; };
+		75EED750229FD0BD002B38D6 /* green-spored parasol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "green-spored parasol.jpg"; sourceTree = "<group>"; };
+		75EED751229FD0BD002B38D6 /* earthball mushroom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "earthball mushroom.jpg"; sourceTree = "<group>"; };
+		75EED752229FD0BD002B38D6 /* haymakers mushroom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "haymakers mushroom.jpg"; sourceTree = "<group>"; };
+		75EED753229FD0BD002B38D6 /* death cap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "death cap.jpg"; sourceTree = "<group>"; };
+		75EED754229FD0BD002B38D6 /* king oyster mushroom.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "king oyster mushroom.jpeg"; sourceTree = "<group>"; };
+		75EED755229FD0BE002B38D6 /* pleurotus ostreatus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pleurotus ostreatus.jpg"; sourceTree = "<group>"; };
+		D9DA39F912A4AB4A0B5A5A06 /* Pods_urlRequest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_urlRequest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3E9CC8E229F71F50044CAC5 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75BDCC292294D65C00A5DE3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51C9707EC2D32C618F654788 /* Pods_urlRequest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B1523A280047B8D3F5A4D2E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11FF372A40BB5CD7775885B7 /* Pods-urlRequest.debug.xcconfig */,
+				082DD1E96E7CBACFE79F841E /* Pods-urlRequest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		75BDCC232294D65C00A5DE3B = {
+			isa = PBXGroup;
+			children = (
+				75BDCC2E2294D65C00A5DE3B /* urlRequest */,
+				75BDCC2D2294D65C00A5DE3B /* Products */,
+				3B1523A280047B8D3F5A4D2E /* Pods */,
+				9FB7A758D5B539D55FCB8B81 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		75BDCC2D2294D65C00A5DE3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75BDCC2C2294D65C00A5DE3B /* urlRequest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75BDCC2E2294D65C00A5DE3B /* urlRequest */ = {
+			isa = PBXGroup;
+			children = (
+				F3E9CC8E229F71F50044CAC5 /* data.json */,
+				75B418A5229E2F770009E27E /* ImageClassifier.mlmodel */,
+				75BDCC2F2294D65C00A5DE3B /* AppDelegate.swift */,
+				75BDCC312294D65C00A5DE3B /* ViewController.swift */,
+				75B7AD7222A3A67B000C9A3C /* imageRotator.swift */,
+				753FA1BC229ABA3900E29C8E /* MushroomIntro.swift */,
+				75B418A7229E313A0009E27E /* ImageProcessor.swift */,
+				75EED74F229FD0BD002B38D6 /* button mushroom.jpeg */,
+				75EED753229FD0BD002B38D6 /* death cap.jpg */,
+				75EED751229FD0BD002B38D6 /* earthball mushroom.jpg */,
+				75EED74B229FD0BC002B38D6 /* ghost fungus.jpg */,
+				75EED750229FD0BD002B38D6 /* green-spored parasol.jpg */,
+				75EED752229FD0BD002B38D6 /* haymakers mushroom.jpg */,
+				75EED754229FD0BD002B38D6 /* king oyster mushroom.jpeg */,
+				75EED755229FD0BE002B38D6 /* pleurotus ostreatus.jpg */,
+				75EED74A229FD0BC002B38D6 /* shaggy parasol.jpg */,
+				75EED74C229FD0BC002B38D6 /* shimeji mushroom.jpg */,
+				75EED74D229FD0BD002B38D6 /* slippery jack.jpg */,
+				75EED74E229FD0BD002B38D6 /* yellow-staining mushroom.jpg */,
+				75BDCC332294D65C00A5DE3B /* Main.storyboard */,
+				75DD8C0C229D1BFF00D0D5A3 /* Assets.xcassets */,
+				75BDCC382294D66000A5DE3B /* LaunchScreen.storyboard */,
+				75BDCC3B2294D66000A5DE3B /* Info.plist */,
+			);
+			path = urlRequest;
+			sourceTree = "<group>";
+		};
+		9FB7A758D5B539D55FCB8B81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9DA39F912A4AB4A0B5A5A06 /* Pods_urlRequest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75BDCC2B2294D65C00A5DE3B /* urlRequest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75BDCC3E2294D66000A5DE3B /* Build configuration list for PBXNativeTarget "urlRequest" */;
+			buildPhases = (
+				6BDADB5DD4FCA27032C9E576 /* [CP] Check Pods Manifest.lock */,
+				75BDCC282294D65C00A5DE3B /* Sources */,
+				75BDCC292294D65C00A5DE3B /* Frameworks */,
+				75BDCC2A2294D65C00A5DE3B /* Resources */,
+				11D09FFA56880B9DF352F26C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = urlRequest;
+			productName = urlRequest;
+			productReference = 75BDCC2C2294D65C00A5DE3B /* urlRequest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75BDCC242294D65C00A5DE3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Haotian Zhu";
+				TargetAttributes = {
+					75BDCC2B2294D65C00A5DE3B = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 75BDCC272294D65C00A5DE3B /* Build configuration list for PBXProject "Mushroom Identifier" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75BDCC232294D65C00A5DE3B;
+			productRefGroup = 75BDCC2D2294D65C00A5DE3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75BDCC2B2294D65C00A5DE3B /* urlRequest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75BDCC2A2294D65C00A5DE3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75EED760229FD0BE002B38D6 /* king oyster mushroom.jpeg in Resources */,
+				75EED757229FD0BE002B38D6 /* ghost fungus.jpg in Resources */,
+				75EED759229FD0BE002B38D6 /* slippery jack.jpg in Resources */,
+				75EED761229FD0BE002B38D6 /* pleurotus ostreatus.jpg in Resources */,
+				75EED75D229FD0BE002B38D6 /* earthball mushroom.jpg in Resources */,
+				75EED75C229FD0BE002B38D6 /* green-spored parasol.jpg in Resources */,
+				75BDCC3A2294D66000A5DE3B /* LaunchScreen.storyboard in Resources */,
+				75EED75A229FD0BE002B38D6 /* yellow-staining mushroom.jpg in Resources */,
+				75EED75F229FD0BE002B38D6 /* death cap.jpg in Resources */,
+				75DD8C12229D47C200D0D5A3 /* Assets.xcassets in Resources */,
+				75EED75E229FD0BE002B38D6 /* haymakers mushroom.jpg in Resources */,
+				75EED758229FD0BE002B38D6 /* shimeji mushroom.jpg in Resources */,
+				75EED75B229FD0BE002B38D6 /* button mushroom.jpeg in Resources */,
+				F3E9CC8F229F71F60044CAC5 /* data.json in Resources */,
+				75BDCC352294D65C00A5DE3B /* Main.storyboard in Resources */,
+				75EED756229FD0BE002B38D6 /* shaggy parasol.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11D09FFA56880B9DF352F26C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-urlRequest/Pods-urlRequest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-urlRequest/Pods-urlRequest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BDADB5DD4FCA27032C9E576 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-urlRequest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75BDCC282294D65C00A5DE3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75BDCC322294D65C00A5DE3B /* ViewController.swift in Sources */,
+				75B7AD7322A3A67B000C9A3C /* imageRotator.swift in Sources */,
+				75BDCC302294D65C00A5DE3B /* AppDelegate.swift in Sources */,
+				75B418A8229E313A0009E27E /* ImageProcessor.swift in Sources */,
+				753FA1BD229ABA3900E29C8E /* MushroomIntro.swift in Sources */,
+				75B418A6229E2F770009E27E /* ImageClassifier.mlmodel in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		75BDCC332294D65C00A5DE3B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75BDCC342294D65C00A5DE3B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75BDCC382294D66000A5DE3B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75BDCC392294D66000A5DE3B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75BDCC3C2294D66000A5DE3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		75BDCC3D2294D66000A5DE3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75BDCC3F2294D66000A5DE3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11FF372A40BB5CD7775885B7 /* Pods-urlRequest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5LKGGT3T5C;
+				INFOPLIST_FILE = urlRequest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.haotian.urlRequest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75BDCC402294D66000A5DE3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 082DD1E96E7CBACFE79F841E /* Pods-urlRequest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5LKGGT3T5C;
+				INFOPLIST_FILE = urlRequest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.haotian.urlRequest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75BDCC272294D65C00A5DE3B /* Build configuration list for PBXProject "Mushroom Identifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75BDCC3C2294D66000A5DE3B /* Debug */,
+				75BDCC3D2294D66000A5DE3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75BDCC3E2294D66000A5DE3B /* Build configuration list for PBXNativeTarget "urlRequest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75BDCC3F2294D66000A5DE3B /* Debug */,
+				75BDCC402294D66000A5DE3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75BDCC242294D65C00A5DE3B /* Project object */;
+}

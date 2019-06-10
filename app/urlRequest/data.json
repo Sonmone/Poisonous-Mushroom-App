@@ -1,0 +1,62 @@
+{
+    "button mushroom": {
+        "binomial name": "Agaricus bisporus",
+        "common name": "Button mushroom",
+        "feature": ["gills on hymenium","cap is convex","hymenium is free","stipe has a ring","spore print is brown","ecology is saprotrophic","edibility: choice"]
+    },
+    "death cap": {
+        "binomial name": "Amanita phalloides",
+        "common name": "Death cap",
+        "feature": ["gills on hymenium","cap is convex or flat","hymenium is free","stipe has a ring and volva","spore print is white","ecology is mycorrhizal","edibility: deadly"]
+    },
+    "earthball mushroom": {
+        "binomial name": "Scleroderma citrinum",
+        "common name": "Common earthball",
+        "feature":["glebal hymenium","no distinct cap","hymenium attachment is not applicable","lacks a stipe","spore print is purple-black","ecology is mycorrhizal","edibility: poisonous"]
+    },
+    "green-spored parasol": {
+        "binomial name": "Chlorophyllum molybdites",
+        "common name": "Green-spored lepiota",
+        "feature": ["gills on hymenium","cap is flat","hymenium is free","stipe is ring","spore print is green","ecology is saprotrophic","edibility: poisonous"]
+    },
+    "haymakers mushroom": {
+        "binomial name": "Panaeolus foenisecii",
+        "common name": "Haymaker",
+        "feature":["gills on hymenium","cap is convex","hymenium is adnexed","stipe is bare","spore print is blackish-brown","ecology is saprotrophic","edibility: edible"]
+    },
+    "king oyster mushroom": {
+        "binomial name": "Pleurotus eryngii",
+        "common name": "King trumpet mushroom",
+        "feature":["gills on hymenium","cap is depressed or offset","hymenium is decurrent","stipe is bare","spore print is white","ecology is saprotrophic","edibility: choice"]
+    },
+    "pleurotus ostreatus": {
+        "binomial name": "Pleurotus ostreatus",
+        "common name": "King trumpet mushroom",
+        "feature":["gills on hymenium","cap is offset","hymenium is decurrent","stipe is bare","spore print is white","ecology is saprotrophic","edibility: choice"]
+    },
+    "shaggy parasol": {
+        "binomial name": "Chlorophyllum rhacodes",
+        "common name": "Shaggy parasol",
+        "feature": ["gills on hymenium","cap is umbonate or convex","hymenium is free","stipe has a ring","spore print is white","ecology is saprotrophic","edibility: choice but not recommended"]
+    },
+    "slippery jack": {
+        "binomial name": "Suillus luteus",
+        "common name": "Slippery jack",
+        "feature": ["pores on hymenium","cap is convex","hymenium is adnate or subdecurrent","stipe has a ring","spore print is brown","ecology is mycorrhizal","edibility: edible"]
+    },
+    "yellow-staining mushroom": {
+        "binomial name": "Agaricus xanthodermus",
+        "common name": "yellow-staining mushroom",
+        "feature": ["gills on hymenium","cap is convex","hymenium is free","stipe has a ring","spore print is brown","ecology is saprotrophic","edibility: poisonous"]
+    },
+    "ghost fungus": {
+        "binomial name": "Omphalotus nidiformis",
+        "common name": "Ghost fungus",
+        "feature": ["gills on hymenium", "cap is infundibuliform", "hymenium is decurrent", "stipe is bare", "spore print is white", "ecology is saprotrophic or parasitic", "edibility: poisonous"]
+    },
+    "shimeji mushroom": {
+        "binomial name": "Shimeji",
+        "common name": "Shimeji",
+        "feature": ["shimeji should always be cooked", "it can be used in soups, stews and in sauces", "shimeji is used in soups, nabe and takikomi gohan"]
+    }
+}

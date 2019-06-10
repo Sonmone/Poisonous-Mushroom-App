@@ -1,0 +1,3 @@
+[console_scripts]
+image_search = image_search.console:main
+
